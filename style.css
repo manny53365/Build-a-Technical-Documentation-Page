@@ -1,0 +1,37 @@
+#main-doc {
+    font-family: 'Merriweather', serif;
+}
+
+code {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: black;
+    height: 50px;
+    width: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    margin:10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    background-color: violet;
+}
