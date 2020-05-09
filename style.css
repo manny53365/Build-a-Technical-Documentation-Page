@@ -4,6 +4,8 @@
 
 code {
     background-color: lightgrey;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 header {
@@ -34,4 +36,8 @@ ul li a {
 ul li a:hover {
     font-weight: bold;
     background-color: violet;
+}
+
+footer {
+    background-color: black;
 }
