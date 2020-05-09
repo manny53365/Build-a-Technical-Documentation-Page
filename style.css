@@ -1,5 +1,7 @@
 #main-doc {
     font-family: 'Merriweather', serif;
+    margin-left: 250px;
+    margin-top: 0px;
 }
 
 code {
@@ -40,4 +42,25 @@ ul li a:hover {
 
 footer {
     background-color: black;
+}
+
+@media (min-width:900px) {
+    #navbar ul {
+        text-align: left;
+        height: 100%;
+        width: 150px;
+        position: fixed;
+        background-color: black;
+        top: 0;
+        left: 0;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:900px) {
+    header {
+        height: 100%;
+        width: 150px;
+    }
 }
